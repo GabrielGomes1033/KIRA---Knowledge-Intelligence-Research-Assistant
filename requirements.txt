@@ -3,8 +3,10 @@ uvicorn
 pydantic
 requests
 python-dotenv
+
 rich
 ddgs
 arxiv
 yfinance
 sympy
+deep-translator
