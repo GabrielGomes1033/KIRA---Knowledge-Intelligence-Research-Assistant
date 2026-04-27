@@ -1,0 +1,38 @@
+PLANO DE EVOLUÇÃO DA KIRA
+
+Objetivo:
+Transformar a KIRA em uma assistente estilo mini ChatGPT focada em pesquisa científica, tecnologia e mercado financeiro.
+
+Módulos criados:
+1. web_search.py
+   - Busca na internet usando DDGS.
+   - Ranking por palavras-chave.
+
+2. science.py
+   - Busca acadêmica no arXiv.
+   - Busca de artigos via Crossref.
+
+3. finance.py
+   - Consulta ativos via yfinance.
+   - Consulta dólar/euro/bitcoin em BRL via AwesomeAPI.
+
+4. calculator.py
+   - Cálculos simbólicos com SymPy.
+   - Suporta derivadas, integrais, matrizes, limites e equações.
+
+5. translator.py
+   - Tradução automática usando deep-translator.
+
+6. summarizer.py
+   - Monta resposta objetiva.
+   - Cria alto resumo detalhado.
+   - Lista pontos principais e fontes.
+
+Próximas melhorias:
+1. Adicionar banco vetorial local com ChromaDB ou FAISS.
+2. Salvar pesquisas em arquivos Markdown.
+3. Adicionar leitura de PDFs científicos.
+4. Adicionar LLM local com Ollama para respostas mais humanas.
+5. Adicionar API de notícias com NewsAPI, GNews ou RSS.
+6. Criar painel web com FastAPI + HTML/CSS/JS.
+7. Integrar a KIRA com a NOVA como módulo de pesquisa profunda.
